@@ -1,1 +1,4 @@
 rootProject.name = 'msa-spring-cloud-test'
+include('git-local-repo')
+include('apigateway-service', 'msa-spring-cloud-test', 'config-service')
+include('user-service', 'first-service', 'second-service')
